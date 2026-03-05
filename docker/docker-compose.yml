@@ -1,0 +1,21 @@
+version: '3'
+
+networks:
+  training:
+    driver: 'bridge'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - ${MONGODB_PORT}:27017 # Mở cổng MongoDB
+    volumes:
+      - ./mongodb/db:/data/db # Lưu trữ dữ liệu MongoDB vào volume
+      - ./mongodb/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin # Tên user root
+      MONGO_INITDB_ROOT_PASSWORD: password # Mật khẩu user root
+    networks:
+      - training
+      
