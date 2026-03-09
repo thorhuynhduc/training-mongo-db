@@ -1,10 +1,12 @@
 # Phần 1: Mở đầu - SQL vs NoSQL
 
-## Link slide: https://www.canva.com/design/DAHDDiVMk9k/zuRuVL4ycTm0kapTR6FSQw/edit?utm_content=DAHDDiVMk9k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+#### Link slide: https://www.canva.com/design/DAHDDiVMk9k/zuRuVL4ycTm0kapTR6FSQw/edit?utm_content=DAHDDiVMk9k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+-----------------
 
 # Phần 2: Làm quen với MongoDB qua lăng kính SQL
 
-## Link slide: https://www.canva.com/design/DAHDazEGAd4/PCF_S7Wd_lSF_3gE8MF46A/edit?utm_content=DAHDazEGAd4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+#### Link slide: https://www.canva.com/design/DAHDazEGAd4/PCF_S7Wd_lSF_3gE8MF46A/edit?utm_content=DAHDazEGAd4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ### Bài tập Dịch cấu trúc: 
   - docker compose exec mongodb bash
@@ -117,4 +119,8 @@
     .sort({ Luong: -1 })                 // ORDER BY Luong DESC
     .limit(5)                             // LIMIT 5
     ```
+-----------------
 
+# Phần 3: Thiết kế Schema & các mối quan hệ như trong SQL
+
+#### Link slide: https://www.canva.com/design/DAHDbm7kX4s/aCUHjx317WNKGOPpeCtUsw/edit?utm_content=DAHDbm7kX4s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
