@@ -124,3 +124,11 @@
 # Phần 3: Thiết kế Schema & các mối quan hệ như trong SQL
 
 #### Link slide: https://www.canva.com/design/DAHDbm7kX4s/aCUHjx317WNKGOPpeCtUsw/edit?utm_content=DAHDbm7kX4s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+---------------
+
+# Phần 4: CRUD
+ - Làm việc với Mảng và Document
+ - So sánh với SQL
+
+#### Link slide: https://www.canva.com/design/DAHDb30kBWY/X3TkIyoNBz5iznMnrebO1A/edit?utm_content=DAHDb30kBWY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
