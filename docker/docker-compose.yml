@@ -5,6 +5,22 @@ networks:
     driver: 'bridge'
 
 services:
+  app:
+    build:
+      context: app
+    ports:
+      - ${APP_PORT}:80
+    volumes:
+      - ${APP_PATH}:/var/www/html/
+      - ./app/logs/nginx:/var/log/nginx
+      - ./app/.composer:/root/.composer
+      - ./app/resolv.conf:/etc/resolv.conf
+    depends_on:
+      - mongodb
+    networks:
+      training:
+        aliases:
+          - api.training-mongo-db.localhost
   mongodb:
     image: mongo:latest
     container_name: mongodb
