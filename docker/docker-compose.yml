@@ -1,0 +1,37 @@
+version: '3'
+
+networks:
+  training:
+    driver: 'bridge'
+
+services:
+  app:
+    build:
+      context: app
+    ports:
+      - ${APP_PORT}:80
+    volumes:
+      - ${APP_PATH}:/var/www/html/
+      - ./app/logs/nginx:/var/log/nginx
+      - ./app/.composer:/root/.composer
+      - ./app/resolv.conf:/etc/resolv.conf
+    depends_on:
+      - mongodb
+    networks:
+      training:
+        aliases:
+          - api.training-mongo-db.localhost
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - ${MONGODB_PORT}:27017 # Mở cổng MongoDB
+    volumes:
+      - ./mongodb/db:/data/db # Lưu trữ dữ liệu MongoDB vào volume
+      - ./mongodb/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin # Tên user root
+      MONGO_INITDB_ROOT_PASSWORD: password # Mật khẩu user root
+    networks:
+      - training
+      

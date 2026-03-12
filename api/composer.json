@@ -1,0 +1,15 @@
+{
+    "name": "mongodb-php-training/basic",
+    "description": "MongoDB PHP Training Project",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "mongodb/mongodb": "^1.15",
+        "ext-mongodb": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
