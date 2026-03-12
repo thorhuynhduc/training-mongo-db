@@ -132,3 +132,34 @@
  - So sánh với SQL
 
 #### Link slide: https://www.canva.com/design/DAHDb30kBWY/X3TkIyoNBz5iznMnrebO1A/edit?utm_content=DAHDb30kBWY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+---------------
+
+# Phần 5: Aggregation Pipeline
+ - Các stage quan trọng (dịch từ SQL)
+ - Thực hành với dữ liệu thật
+
+#### Link slide: https://www.canva.com/design/DAHDg-RNZeI/r1vfS4SF4fWPzJ9N2LJd5Q/edit?utm_content=DAHDg-RNZeI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+---------------
+
+# Phần 6: Indexes
+ - So sánh với SQL
+ - Tạo Index
+ - Compound Index
+
+#### Link slide: https://www.canva.com/design/DAHDh57pIlY/uhUWlNAk-XYH0778otXOxw/edit?utm_content=DAHDh57pIlY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+---------------
+
+# Phần 7: Transaction
+
+#### Link slide: https://www.canva.com/design/DAHDhxVoNes/nkRQDE-tSelBr29ALiMTcA/edit?utm_content=DAHDhxVoNes&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+---------------
+
+# Phần 8: Tính sẵn sàng & Mở rộng
+ - Replica Set
+ - Sharding
+
+#### Link slide: https://www.canva.com/design/DAHDnlSmnDE/38RcWJ9lTPIc41q-_d4xUw/edit?utm_content=DAHDnlSmnDE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
